@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    padding: 15px 0;
+}
+
+.logo {
+    font-weight: 700;
+    color: #ff9900;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff;
+}
+
+.hero h1 .highlight {
+    color: #ff9900;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero img {
+    margin-top: 30px;
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    background: #f1f1f1;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    margin: 8px 0;
+}
+
+.skills {
+    background: #fff;
+    padding: 40px 20px;
+}
+
+.skill label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.bar {
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.fill {
+    background: #ff9900;
+    height: 100%;
+}
+
+footer {
+    background: #fafafa;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #ddd;
+}
